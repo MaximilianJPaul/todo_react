@@ -1,0 +1,36 @@
+.list {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.list > .list-tasks {
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.task-setter {
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+}
+
+.task-setter .task-done {
+    transform: scale(1.2);
+}
+
+.task-setter .set-task {
+    border: none;
+    display: block;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.task-setter .set-task:focus {
+    outline: none;
+}
+
+.task-setter button {
+    display: none;
+}
